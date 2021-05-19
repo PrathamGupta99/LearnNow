@@ -1,0 +1,72 @@
+
+@media only screen and (max-width:1070px) {
+    .navbar{
+        flex-direction: column;
+        padding-top: 20px;
+        height: 600px;
+        transition: all .3s ease-in;
+    }
+    .nav-list{
+        flex-direction: column;
+        padding-top: 3px;
+    }
+    .nav-list li a{
+        font-size: 30px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .right-nav{
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav{
+        height: 40px;
+    }
+    .v-class{
+        opacity: 0;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .secondhalf{
+        /* width: auto; */
+        padding-top: 0px;
+    }
+    .secondhalf img{
+        /* width: 100%; */
+    }
+    .secondsection{
+        padding-top: 50px;
+    }
+    .secright{
+        flex-direction: column-reverse;
+        padding: 5px 5px;
+        max-width: 100%;
+    }
+    .secleft{
+        flex-direction: column-reverse;
+        padding: 10px 10px;
+        max-width: 100%;
+    }
+    .thumbnail img{
+        width: 240px;
+        margin-top: 40px;
+    }
+    .sectiontag{
+        font-size: 32px;
+        font-weight:bold;
+        margin-bottom: 5px;
+        text-align: left;
+    }
+    .sectionsubtag{
+        margin-top:5px;
+        font-size: 20px;
+        /* text-align:center; */
+        
+    }
+}
